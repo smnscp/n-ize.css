@@ -1,5 +1,9 @@
 # Changes to n’ize.css
 
+### 0.2.1 (June 5, 2022)
+
+* Use common block margin to help establishing a baseline grid.
+
 ### 0.2.0 (June 5, 2022)
 
 * Add generic typography based on custom CSS properties (naming inspired by [Pollen](https://www.pollen.style/)).

@@ -1,4 +1,4 @@
-/*! n’ize.css v0.2.0 | MIT License | github.com/smnscp/n-ize.css */
+/*! n’ize.css v0.2.1 | MIT License | github.com/smnscp/n-ize.css */
 
 /* Document
    ========================================================================== */
@@ -95,8 +95,20 @@ h6,
   h1 {
   font-size: var(--scale--2);
   line-height: var(--line--2);
-  font-size: 2em;
-  margin: 0.67em 0;
+}
+
+/**
+ * Use common block margin to help establishing a baseline grid.
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: var(--line-root-abs);
 }
 
 /* Grouping content

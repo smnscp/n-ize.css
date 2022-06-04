@@ -19,6 +19,7 @@
   --scale-3: 2rem; /* = (6 / 3) rem */
   --scale-smaller: smaller;
   --line-root: 1.5;
+  --line-root-abs: calc(1rem * var(--line-root));
   --line--1: var(--line-root);
   --line--2: var(--line-root);
   --line-0: var(--line-root);
