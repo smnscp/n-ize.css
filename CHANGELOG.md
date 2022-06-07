@@ -1,5 +1,9 @@
 # Changes to n’ize.css
 
+### 0.3.0 (June 8, 2022)
+
+* Remove rules covered by [normalize.css](https://github.com/csstools/normalize.css).
+
 ### 0.2.1 (June 5, 2022)
 
 * Use common block margin to help establishing a baseline grid.
