@@ -1,0 +1,15 @@
+{
+  "name": "n’ize.css",
+  "version": "0.1.0",
+  "description": "Add some spice to normalize.",
+  "main": "n’ize.css",
+  "style": "n’ize.css",
+  "files": [
+    "LICENSE.md",
+    "n’ize.css"
+  ],
+  "repository": "smnscp/n-ize.css",
+  "license": "MIT",
+  "bugs": "https://github.com/smnscp/n-ize.css/issues",
+  "homepage": "https://github.com/smnscp/n-ize.css"
+}
