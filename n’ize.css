@@ -107,8 +107,35 @@ h3,
 h4,
 h5,
 h6,
-p {
-  margin-block: var(--line-root-abs);
+p,
+dl,
+blockquote,
+figure,
+pre,
+ol,
+ul,
+menu,
+dir {
+  margin-block: var(--spacing-block);
+}
+
+/**
+ * Replace 40px indent.
+ */
+
+ol,
+ul,
+menu,
+dir {
+  padding-inline-start: var(--spacing-inline);
+}
+
+dd {
+  margin-inline-start: var(--spacing-inline);
+}
+
+blockquote, figure {
+  margin-inline: var(--spacing-inline);
 }
 
 /* Grouping content
