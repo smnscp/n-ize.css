@@ -1,26 +1,26 @@
-/*! n’ize.css v0.1.0 | MIT License | github.com/smnscp/n-ize.css */
+/*! n’ize.css v0.1.1 | MIT License | github.com/smnscp/n-ize.css */
 
 /* Document
    ========================================================================== */
 
 /**
- * Use a better box model (opinionated).
+ * 1. Set Box sizing default to border-box (https://css-tricks.com/box-sizing/)
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Correct the line height in all browsers.
  */
 
+:root {
+  box-sizing: border-box; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  text-size-adjust: 100%; /* 2 */
+  line-height: 1.15; /* 3 */
+}
+
+/* everything inherits border-box unless specified */
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-}
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
-html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  box-sizing: inherit;
 }
 
 /* Sections
@@ -32,14 +32,6 @@ html {
 
 body {
   margin: 0;
-}
-
-/**
- * Render the `main` element consistently in IE.
- */
-
-main {
-  display: block;
 }
 
 /**
@@ -56,13 +48,14 @@ h1 {
    ========================================================================== */
 
 /**
- * 1. Add the correct height in Firefox.
- * 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+ * 1. Use relative size.
+ * 2. Use flat style.
+ * 3. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
  */
 
 hr {
-  height: 0; /* 1 */
-  color: inherit; /* 2 */
+  border: 0.0625em solid; /* 1, 2 */
+  color: inherit; /* 3 */
 }
 
 /* Text-level semantics
@@ -142,7 +135,7 @@ table {
    ========================================================================== */
 
 /**
- * 1. Change the font styles in all browsers.
+ * 1. Inherit the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
 
@@ -152,8 +145,8 @@ optgroup,
 select,
 textarea {
   font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
+  line-height: inherit; /* 1 */
+  font-size: inherit; /* 1 */
   margin: 0; /* 2 */
 }
 
