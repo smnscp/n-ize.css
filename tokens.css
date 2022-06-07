@@ -1,0 +1,28 @@
+/**
+ * Placeholders for tokens (custom CSS properties) used by n’ize.css.
+ * Adjust to your needs.
+ */
+
+:root {
+  --font-body: serif;
+  --font-titling: sans-serif;
+  --font-mono: monospace;
+  --weight-body: normal;
+  --weight-titling: bold;
+  /* Based on https://drafts.csswg.org/css-fonts-3/#absolute-size-value
+   * with some consistency added. */
+  --scale--2: 0.75rem; /* = (6 / 8) rem */
+  --scale--1: 0.857143rem; /* = (6 / 7) rem */
+  --scale-0: 1rem; /* = (6 / 6) rem */
+  --scale-1: 1.2rem; /* = (6 / 5) rem */
+  --scale-2: 1.5rem; /* = (6 / 4) rem */
+  --scale-3: 2rem; /* = (6 / 3) rem */
+  --scale-smaller: smaller;
+  --line-root: 1.5;
+  --line--1: var(--line-root);
+  --line--2: var(--line-root);
+  --line-0: var(--line-root);
+  --line-1: var(--line-root);
+  --line-2: var(--line-root);
+  --line-3: var(--line-root);
+}
