@@ -1,12 +1,21 @@
 {
-  "name": "n’ize.css",
+  "name": "n-ize.css",
   "version": "0.3.0",
-  "description": "Add some spice to normalize.",
+  "description": "An add-on to CSS normalization. With slots for your design system.",
+  "keywords": [
+    "css",
+    "normalization",
+    "css-reset",
+    "design-tokens",
+    "css-custom-properties"
+  ],
+  "author": "Simon Schrape",
   "main": "n’ize.css",
   "style": "n’ize.css",
   "files": [
     "LICENSE.md",
-    "n’ize.css"
+    "n’ize.css",
+    "tokens.css"
   ],
   "repository": "smnscp/n-ize.css",
   "license": "MIT",
