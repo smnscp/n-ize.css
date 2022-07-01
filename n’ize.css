@@ -169,3 +169,11 @@ sub {
 sup {
   top: -0.5em;
 }
+
+/**
+ * Prevent list-item markers from blowing up the list-item’s first line
+ * in Firefox.
+ */
+::marker {
+  line-height: 0;
+}

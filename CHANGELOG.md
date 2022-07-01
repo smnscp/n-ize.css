@@ -1,5 +1,9 @@
 # Changes to n’ize.css
 
+### 0.3.1 (July 1, 2022)
+
+* Prevent list-item markers from blowing up the list-item’s first line in Firefox.
+
 ### 0.3.0 (June 8, 2022)
 
 * Remove rules covered by [normalize.css](https://github.com/csstools/normalize.css).
