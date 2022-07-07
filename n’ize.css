@@ -152,29 +152,15 @@ sup {
 }
 
 /**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
+ * Prevent certain inline (pseudo) elements from affecting the line height.
  */
 
+code,
+kbd,
+samp,
 sub,
-sup {
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-/**
- * Prevent list-item markers from blowing up the list-item’s first line
- * in Firefox.
- */
+sup,
+small,
 ::marker {
   line-height: 0;
 }
