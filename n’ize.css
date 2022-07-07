@@ -142,10 +142,12 @@ pre {
 }
 
 /**
- * Add the correct font size in all browsers.
+ * Set scale-based font size.
  */
 
-small {
+small,
+sub,
+sup {
   font-size: var(--scale-smaller);
 }
 
@@ -156,7 +158,6 @@ small {
 
 sub,
 sup {
-  font-size: var(--scale-smaller);
   line-height: 0;
   position: relative;
   vertical-align: baseline;
