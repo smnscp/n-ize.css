@@ -53,7 +53,8 @@ h6 {
   font-weight: var(--weight-titling);
   margin-block: var(--spacing-block-titling);
 }
-h1 {
+h1,
+.h1 {
   font-size: var(--scale-3);
   line-height: var(--line-3);
 }
