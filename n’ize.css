@@ -127,6 +127,16 @@ figure {
   margin-inline: var(--spacing-inline);
 }
 
+/**
+ * Make `hr` line-height neutral, i. e. 0px high.
+ */
+
+hr {
+  --stroke: var(--stroke-hr, 0.125rem);
+  border: solid calc(0.5 * var(--stroke));
+  margin-block: calc(-0.5 * var(--stroke));
+}
+
 /* Text-level semantics
  * ========================================================================== */
 
