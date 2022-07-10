@@ -1,5 +1,12 @@
 # Changes to n’ize.css
 
+### 0.3.2 (July 9, 2022)
+
+* Consolidate font size setting.
+* Consolidate line height fix for inline boxes.
+* Make `hr` line height neutral.
+* Allow `h1` to insist to be top level.
+
 ### 0.3.1 (July 1, 2022)
 
 * Prevent list-item markers from blowing up the list-item’s first line in Firefox.
