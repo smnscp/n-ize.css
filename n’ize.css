@@ -1,7 +1,8 @@
 /*! n’ize.css v0.3.0 | MIT License | github.com/smnscp/n-ize.css */
 
-/* Document
- * ========================================================================== */
+/**
+ * ## Document
+ */
 
 /**
  * 1. Set Box sizing default to border-box (https://css-tricks.com/box-sizing/)
@@ -33,8 +34,9 @@ body {
   line-height: var(--line-0);
 }
 
-/* Sections
- * ========================================================================== */
+/**
+ * ## Sectioning
+ */
 
 /**
  * Generic typography for headings.
@@ -96,8 +98,9 @@ h6,
   line-height: var(--line--2);
 }
 
-/* Grouping content
- * ========================================================================== */
+/**
+ * ## Block-level text content
+ */
 
 /**
  * Use common block margin to help establishing a baseline grid.
@@ -138,8 +141,9 @@ hr {
   margin-block: calc(-0.5 * var(--stroke));
 }
 
-/* Text-level semantics
- * ========================================================================== */
+/**
+ * ## Inline text semantics
+ */
 
 /**
  * Generic typography for monospaced elements.
