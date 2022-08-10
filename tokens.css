@@ -5,10 +5,10 @@
 
 :root {
   --font-body: serif;
-  --font-titling: sans-serif;
+  --font-heading: sans-serif;
   --font-mono: monospace;
   --weight-body: normal;
-  --weight-titling: bold;
+  --weight-heading: bold;
   /* Based on https://drafts.csswg.org/css-fonts-3/#absolute-size-value
    * with some consistency added. */
   --scale--2: 0.75rem; /* = (6 / 8) rem */

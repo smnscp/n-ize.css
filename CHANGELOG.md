@@ -1,5 +1,9 @@
 # Changes to n’ize.css
 
+### 0.3.3 (August 10, 2022)
+
+* Replace `titling` with `heading` in tokens.
+
 ### 0.3.2 (July 9, 2022)
 
 * Consolidate font size setting.

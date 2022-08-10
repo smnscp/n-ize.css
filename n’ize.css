@@ -1,4 +1,4 @@
-/*! n’ize.css v0.3.2 | MIT License | github.com/smnscp/n-ize.css */
+/*! n’ize.css v0.3.3 | MIT License | github.com/smnscp/n-ize.css */
 
 /**
  * ## Document
@@ -51,9 +51,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-titling);
-  font-weight: var(--weight-titling);
-  margin-block: var(--spacing-block-titling);
+  font-family: var(--font-heading);
+  font-weight: var(--weight-heading);
+  margin-block: var(--spacing-block-heading);
 }
 h1,
 .h1 {
