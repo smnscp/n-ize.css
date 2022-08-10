@@ -1,4 +1,4 @@
-/*! n’ize.css v0.3.3 | MIT License | github.com/smnscp/n-ize.css */
+/*! n’ize.css v0.3.4 | MIT License | github.com/smnscp/n-ize.css */
 
 /**
  * ## Document
@@ -40,8 +40,6 @@ body {
 
 /**
  * Generic typography for headings.
- * Include selectors for `h1` as subheading:
- *   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#multiple_h1_elements_on_one_page
  * Use common block margin to help establishing a baseline grid.
  */
 
@@ -55,45 +53,27 @@ h6 {
   font-weight: var(--weight-heading);
   margin-block: var(--spacing-block-heading);
 }
-h1,
-.h1 {
+h1 {
   font-size: var(--scale-3);
   line-height: var(--line-3);
 }
-h2,
-:is(article, aside, nav, section) h1 {
+h2 {
   font-size: var(--scale-2);
   line-height: var(--line-2);
 }
-h3,
-:is(article, aside, nav, section) :is(article, aside, nav, section) h1 {
+h3 {
   font-size: var(--scale-1);
   line-height: var(--line-1);
 }
-h4,
-:is(article, aside, nav, section)
-  :is(article, aside, nav, section)
-  :is(article, aside, nav, section)
-  h1 {
+h4 {
   font-size: var(--scale-0);
   line-height: var(--line-0);
 }
-h5,
-:is(article, aside, nav, section)
-  :is(article, aside, nav, section)
-  :is(article, aside, nav, section)
-  :is(article, aside, nav, section)
-  h1 {
+h5 {
   font-size: var(--scale--1);
   line-height: var(--line--1);
 }
-h6,
-:is(article, aside, nav, section)
-  :is(article, aside, nav, section)
-  :is(article, aside, nav, section)
-  :is(article, aside, nav, section)
-  :is(article, aside, nav, section)
-  h1 {
+h6 {
   font-size: var(--scale--2);
   line-height: var(--line--2);
 }

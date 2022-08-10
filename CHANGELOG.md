@@ -1,5 +1,9 @@
 # Changes to n’ize.css
 
+### 0.3.4 (August 10, 2022)
+
+* Drop selectors for `h1` as subheading. This technique has been [removed](https://github.com/whatwg/html/pull/7829/files#diff-41cf6794ba4200b839c53531555f0f3998df4cbb01a4d5cb0b94e3ca5e23947dL16657-L16660) from [the specs](https://html.spec.whatwg.org/multipage/sections.html#headings-and-outlines).
+
 ### 0.3.3 (August 10, 2022)
 
 * Replace `titling` with `heading` in tokens.
