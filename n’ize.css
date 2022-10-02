@@ -1,24 +1,25 @@
-/*! n’ize.css v0.3.4 | MIT License | github.com/smnscp/n-ize.css */
+/*! n’ize.css v0.4.0 | MIT License | github.com/smnscp/n-ize.css */
 
 /**
  * ## Document
  */
 
 /**
- * 1. Set Box sizing default to border-box (https://css-tricks.com/box-sizing/)
- * 2. Provide a slot for setting the root line height.
+ * Provide a slot for setting the root line height.
  */
 
 :root {
-  box-sizing: border-box; /* 1 */
-  line-height: var(--line-root); /* 2 */
+  line-height: var(--line-root);
 }
 
-/* everything inherits border-box unless specified */
+/**
+ * Set Box sizing default to border-box.
+ */
+
 *,
 ::before,
 ::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 /**
