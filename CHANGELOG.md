@@ -1,5 +1,10 @@
 # Changes to n’ize.css
 
+### 0.4.1 (October 7, 2022)
+
+- Use outline to paint `hr`.
+- Add color slot to `hr`.
+
 ### 0.4.0 (October 1, 2022)
 
 - No longer inherit `box-sizing`. Seems more practical to change that behavior just for one element than for a whole element tree.

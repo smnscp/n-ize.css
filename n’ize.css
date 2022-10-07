@@ -1,4 +1,4 @@
-/*! n’ize.css v0.4.0 | MIT License | github.com/smnscp/n-ize.css */
+/*! n’ize.css v0.4.1 | MIT License | github.com/smnscp/n-ize.css */
 
 /**
  * ## Document
@@ -121,6 +121,7 @@ hr {
   outline-style: var(--stroke-style-hr, var(--stroke-style-default, solid));
   outline-width: calc(0.5 * var(--stroke-width-hr, var(--stroke-width-default, 0.125rem)));
   margin-inline: auto;
+  color: var(--color-hr);
 }
 
 /**
