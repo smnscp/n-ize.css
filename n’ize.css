@@ -117,9 +117,10 @@ figure {
  */
 
 hr {
-  --stroke: var(--stroke-hr, 0.125rem);
-  border: solid calc(0.5 * var(--stroke));
-  margin-block: calc(-0.5 * var(--stroke));
+  border: none;
+  outline-style: var(--stroke-style-hr, var(--stroke-style-default, solid));
+  outline-width: calc(0.5 * var(--stroke-width-hr, var(--stroke-width-default, 0.125rem)));
+  margin-inline: auto;
 }
 
 /**
