@@ -27,5 +27,7 @@
   --line-2: var(--line-root);
   --line-3: var(--line-root);
   --spacing-block: var(--line-root-abs);
-  --spacing-inline: calc(2 * var(--line-root-abs));
+  --spacing-heading: var(--spacing-block);
+  --spacing-sectioning: calc(2 * var(--spacing-block));
+  --spacing-inline: 4ch;
 }

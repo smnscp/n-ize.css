@@ -1,4 +1,4 @@
-/*! n’ize.css v0.4.1 | MIT License | github.com/smnscp/n-ize.css */
+/*! n’ize.css v0.5.0 | MIT License | github.com/smnscp/n-ize.css */
 
 /**
  * ## Document
@@ -20,6 +20,7 @@
 ::before,
 ::after {
   box-sizing: border-box;
+  margin: 0;
 }
 
 /**
@@ -28,7 +29,6 @@
  */
 
 body {
-  margin: 0;
   font-family: var(--font-body);
   font-weight: var(--weight-body);
   font-size: var(--scale-0);
@@ -41,7 +41,6 @@ body {
 
 /**
  * Generic typography for headings.
- * Use common block margin to help establishing a baseline grid.
  */
 
 h1,
@@ -52,7 +51,6 @@ h5,
 h6 {
   font-family: var(--font-heading);
   font-weight: var(--weight-heading);
-  margin-block: var(--spacing-block-heading);
 }
 h1 {
   font-size: var(--scale-3);
@@ -80,17 +78,27 @@ h6 {
 }
 
 /**
- * ## Block-level text content
+ * ## Block-level spacing
+ * Use common block margin to help establishing a baseline grid.
+ * https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/
  */
+
+ * + :is(h1, h2, h3, h4, h5, h6) {
+  margin-block-start: var(--spacing-heading);
+}
+
+* + :is(article, section) {
+  margin-block-start: var(--spacing-sectioning);
+}
+
+* + :is(p, blockquote, figure, pre, menu, dir),
+:not(dd, li) > * + :is(dl, ol, ul) {
+  margin-block-start: var(--spacing-block);
+}
 
 /**
- * Use common block margin to help establishing a baseline grid.
+ * ## Block-level text content
  */
-
-:is(p, blockquote, figure, pre, menu, dir),
-:not(dd, li) :is(dl, ol, ul) {
-  margin-block: var(--spacing-block);
-}
 
 /**
  * Replace 40px indent.

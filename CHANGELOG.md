@@ -1,5 +1,9 @@
 # Changes to n’ize.css
 
+### 0.5.0 (October 8, 2022)
+
+- Abandon symmetric block margins in favor of [selective top margins](https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/).
+
 ### 0.4.1 (October 7, 2022)
 
 - Use outline to paint `hr`.
