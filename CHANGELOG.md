@@ -1,5 +1,9 @@
 # Changes to n’ize.css
 
+### 0.5.1 (October 15, 2022)
+
+- Remove margin from collapsible nested lists.
+
 ### 0.5.0 (October 8, 2022)
 
 - Abandon symmetric block margins in favor of [selective top margins](https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/).
