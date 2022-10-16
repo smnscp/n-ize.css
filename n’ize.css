@@ -91,7 +91,7 @@ h6 {
   margin-block-start: var(--spacing-sectioning);
 }
 
-* + :is(p, blockquote, figure, pre, menu, dir),
+* + :is(p, blockquote, figure, figcaption, pre, menu, dir),
 :not(dd, li, li > details) > * + :is(dl, ol, ul) {
   margin-block-start: var(--spacing-block);
 }
