@@ -1,9 +1,12 @@
 # Changes to n’ize.css
 
+### 0.5.2 (October 16, 2022)
+
+- Add `figcaption` margin.
+
 ### 0.5.1 (October 15, 2022)
 
 - Remove margin from collapsible nested lists.
-- Add `figcaption` margin.
 
 ### 0.5.0 (October 8, 2022)
 
