@@ -1,5 +1,9 @@
 # Changes to n’ize.css
 
+### 0.5.3 (October 24, 2022)
+
+- Add `hr` margin.
+
 ### 0.5.2 (October 16, 2022)
 
 - Add `figcaption` margin.

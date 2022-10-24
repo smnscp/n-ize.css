@@ -1,4 +1,4 @@
-/*! n’ize.css v0.5.2 | MIT License | github.com/smnscp/n-ize.css */
+/*! n’ize.css v0.5.3 | MIT License | github.com/smnscp/n-ize.css */
 
 /**
  * ## Document
@@ -91,7 +91,7 @@ h6 {
   margin-block-start: var(--spacing-sectioning);
 }
 
-* + :is(p, blockquote, figure, figcaption, pre, menu, dir),
+* + :is(p, blockquote, figure, figcaption, pre, menu, dir, hr),
 :not(dd, li, li > details) > * + :is(dl, ol, ul) {
   margin-block-start: var(--spacing-block);
 }
