@@ -1,5 +1,12 @@
 # Changes to n’ize.css
 
+
+## 0.5
+
+### 0.5.4 (March 20, 2023)
+
+- Give up on fancy character in filename.
+
 ### 0.5.3 (October 24, 2022)
 
 - Add `hr` margin.
@@ -16,6 +23,8 @@
 
 - Abandon symmetric block margins in favor of [selective top margins](https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/).
 
+## 0.4
+
 ### 0.4.1 (October 7, 2022)
 
 - Use outline to paint `hr`.
@@ -24,6 +33,8 @@
 ### 0.4.0 (October 1, 2022)
 
 - No longer inherit `box-sizing`. Seems more practical to change that behavior just for one element than for a whole element tree.
+
+## 0.3
 
 ### 0.3.4 (August 10, 2022)
 
@@ -48,6 +59,8 @@
 
 - Remove rules covered by [normalize.css](https://github.com/csstools/normalize.css).
 
+## 0.2
+
 ### 0.2.1 (June 5, 2022)
 
 - Use common block margin to help establishing a baseline grid.
@@ -56,6 +69,8 @@
 
 - Add generic typography based on custom CSS properties (naming inspired by [Pollen](https://www.pollen.style/)).
 - Embrace Firefox’ styling of `h1` in nested sections. (If `h1` is nested there should be a reason, anyways.)
+
+## 0.1
 
 ### 0.1.1 (June 4, 2022)
 

@@ -1,6 +1,6 @@
 {
   "name": "n-ize.css",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "An add-on to CSS normalization. With slots for your design system.",
   "keywords": [
     "css",
