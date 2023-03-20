@@ -1,9 +1,14 @@
 # Changes to n’ize.css
 
+## 0.6
+
+### 0.6.0 (March 20, 2023)
+
+- Settle on `n-ize.css` for the filename. [NPM does not include symlinks in packages.](https://github.com/npm/npm/issues/3310)
 
 ## 0.5
 
-### 0.5.4 (March 20, 2023)
+### 0.5.5 (March 20, 2023)
 
 - Give up on fancy character in filename.
 

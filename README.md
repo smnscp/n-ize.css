@@ -11,7 +11,7 @@
 
 **Download**
 
-Here’s the [raw CSS file](https://raw.githubusercontent.com/smnscp/n-ize.css/main/n’ize.css).
+Here’s the [raw CSS file](https://raw.githubusercontent.com/smnscp/n-ize.css/main/n-ize.css).
 
 ## What does it do?
 
